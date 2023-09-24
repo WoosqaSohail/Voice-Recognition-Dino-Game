@@ -24,7 +24,7 @@ function gotCommand(error, results) {
     console.error(error);
   }
   console.log(results[0].label, results[0].confidence);
-  if (results[0].label == 'one') {
+  if (results[0].label == 'jump') {
     unicorn.jump();
 
   }
